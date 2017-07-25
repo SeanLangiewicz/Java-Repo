@@ -7,13 +7,15 @@ public class Human
 	int heightInInches;
 	String eyeColor;
 	
-	
 	// Constructor
-	public Human()
-	{
-		
+	public Human(String name, int age, int heightInInches, String eyeColor) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.heightInInches = heightInInches;
+		this.eyeColor = eyeColor;
 	}
-	
+
 	public void speak()
 	{
 		System.out.println("Hello my name is " + name);
